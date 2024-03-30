@@ -23,14 +23,14 @@ for xuuuuuu in range(9):
     elif(xuuuuuu==2%9):
         print(" * * ")
 
-print("______________________________________________") 
-u=int( input(" enter the number of rows"))
-o=int(input("enter the number of colums")) 
-b=""
-for i in range(1,u+1):
-    for p in range(1,o+1):
-        b=b+("* ")
-    print(b)
+#print("______________________________________________") 
+#u=int( input(" enter the number of rows"))
+#o=int(input("enter the number of colums")) 
+#b=""
+#for i in range(1,u+1):
+#    for p in range(1,o+1):
+ #       b=b+("* ")
+   # print(b)
 
 
 
@@ -67,6 +67,23 @@ for k in range(1,6):
         print( " *         * ")
 
 
+print("__________________________________________________________________")
+
+
+for e in range (0,6):
+    if e==0 or e==5:
+     bag=""
+     for q in range (6):
+       bag=bag+"* "
+     print(bag)
+    else:
+      jhola=""
+      for w in range (6):
+       if w==0 or w==5:
+           jhola=jhola+"* "
+       else:
+           jhola=jhola+"  "
+      print(jhola)
 
 
 
