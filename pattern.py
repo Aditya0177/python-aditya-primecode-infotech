@@ -83,10 +83,37 @@ for e in range (0,6):
            jhola=jhola+"* "
        else:
            jhola=jhola+"  "
-      print(jhola)
+      print(jhola) 
+
+print("______________________________________")
 
 
 
+for t in range(0,6):
+   if t==0 or t==5:
+     jhola=""
+     for k in range (5+1):
+         jhola=jhola+("* ")
+     else:
+       for u in range(6):
+          if u==0 or u==5:
+            jhola=jhola+("* ")
+          elif u==[1,1]:
+             jhola=jhola+("*")
+          elif u==[2,2]:
+             jhola=jhola+("*")
+          elif u==(3,3):
+             jhola=jhola+("*")
+          elif u==[4,4]:
+             jhola=jhola+("*")
+          else:
+             print("not applicable")
+     print(jhola)
 
+
+      
+   
+     
+   
 
 
