@@ -69,12 +69,12 @@ while rw>=0:
     container=container+alllist[rw][cw]+"  "
     rw-=1
 
-# rw=0
-# cw=3
-# while cw<=2:
-#     container=container+alllist[rw][cw]+"  "
-#     cw-=1
-# print(container)
+rw=1
+cw=1
+
+container=container+alllist[rw][cw]+"  "
+cw-=1
+print(container)
 
 
 print("________________________________________________________________")
@@ -90,7 +90,7 @@ while c>=0:
     bagg=bagg+myylist[r][c]+"  "
     c-=1
 
-r=0
+r=1
 c=1
 while c<=3:
      bagg=bagg+myylist[r][c]+"  "
@@ -185,3 +185,59 @@ while c>=1:
     beakar=beakar+keeplist[r][c]+"  "
     c-=1
 print(beakar)
+print("___________________________________________________________________________________________________________________________________________")
+
+spirallist=[["a","b","c","d","e"]
+           ,["f","g","h","i","j"]
+           ,["k","l","m","n","o"]
+           ,["p","q","r","s","t"]
+           ,["u","v","w","x","y"]]
+
+r=0
+c=0
+baggg=""
+while c<=4:
+    baggg=baggg+spirallist[r][c]+"  "
+    c+=1
+
+r=1
+c=4
+while r<=4:
+     baggg=baggg+spirallist[r][c]+"  "
+     r+=1
+
+r=4
+c=3
+while c>=0:
+     baggg=baggg+spirallist[r][c]+"  "
+     c-=1
+
+r=3
+c=0
+while r>=1:
+     baggg=baggg+spirallist[r][c]+"  "
+     r-=1
+
+r=1
+c=1
+while c<=3:
+     baggg=baggg+spirallist[r][c]+"  "
+     c+=1
+
+r=2
+c=3
+while r<=3:
+     baggg=baggg+spirallist[r][c]+"  "
+     r+=1
+r=3
+c=2
+while c>=1:
+     baggg=baggg+spirallist[r][c]+"  "
+     c-=1
+
+r=2
+c=1
+while c<=2:
+     baggg=baggg+spirallist[r][c]+"  "
+     c+=1
+print(baggg)
